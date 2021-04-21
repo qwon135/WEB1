@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WEB1 - HTML</title>
+    <title>WEB1</title>
     <meta charset="utf-8">
+    <script src="color.js"></script>
+    <link rel="stylesheet" href="style.CSS"/>
   </head>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-      <li><a href="1.html">HTMl</a></li>
-      <li><a href="2.html">CSS</a></li>
-      <li><a href="3.html">Javascript</a></li>
-    </ol>
-    <h2>HTML이란 무엇인가?</h2>
-    <p><a href="http://www.w3.org/TH/html5/" target=“_blank” title=“HTML5 specification”>Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>craeting <u>web</u> pages</strong> and web applications. Web
-    browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the
-    structure of a web page semantically and originally included cues for the appearance of the document.</p>
-    <p><img src="cording.jpg" width="40%"></p>
-    <p style="margin-top:40px">HTML elements are the building
-    blocks of HTML pages. with HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.
-    It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links,
-    quotes and other items, HTML elements are delineated by tags, written using angle brackets.</p>
+    <h1><a href="index.html" >WEB</a></h1>
+    <input type="button" value="night" onclick="
+      nightDayHandler(this);
+      ">
+    <div id="grid">
+      <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">Javascript</a></li>
+      </ol>
+      <div id="article">
+        <h2>HTML이란 무엇인가?</h2>
+        <p>HTML 은 Hyper Text Markup Language 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것) 기능을 가진 문서를 만드는 언어입니다.
+          다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며, 흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
